@@ -96,6 +96,45 @@ See [evaluation/README.md](evaluation/README.md) for full instructions, environm
 
 ---
 
+# A note on model variants and their nomenclature
+
+We use different naming conventions in the paper versus the codebase for clarity and simplicity respectively.
+
+### Paper Nomenclature
+
+In the paper, we use descriptive names like:
+- $INST_{EN}  C_{EU}  I_{EN}$= Llama 3.1 Instruct + Basque Corpus + English Instructions
+- $BASE_{EU}  C_{EU}  I_{EN+EU}$ = Latxa Base + Basque Corpus + English & Basque Instructions
+
+### Codebase Nomenclature
+
+In the actual code, models, and evaluation results, we use a simplified format
+
+`exp_{BACKBONE}_{CORPUS_EU}{INST_EU}{INST_EN}`
+
+where:
+
+- **BACKBONE:**
+  - `0` = $BASE_{EN}$ (Llama 3.1 8B)
+  - `1` = $BASE_{EU}$ (Latxa 3.1 8B) 
+  - `2` = $INST_{EN}$ (Llama 3.1 8B Instruct)
+
+- **CORPUS_EU / INST_EU / INST_EN:**
+  - `0` = not used
+  - `1` = used
+
+**Examples:**
+- `exp_1_101` = $BASE_{EU}$ + Basque Corpus + English Instructions
+- `exp_2_111` = $INST_{EN}$ + Basque Corpus + Basque Instructions + English Instructions
+
+### Model Repositories
+
+All 8B model variants are available as branches in the HuggingFace repository:
+- Main model: https://huggingface.co/HiTZ/Latxa-Llama-3.1-8B-Instruct
+- Example variant: https://huggingface.co/HiTZ/Latxa-Llama-3.1-8B-Instruct/tree/exp_0_010
+
+---
+
 # Citation
 
 If you use Latxa-Instruct, please cite:
