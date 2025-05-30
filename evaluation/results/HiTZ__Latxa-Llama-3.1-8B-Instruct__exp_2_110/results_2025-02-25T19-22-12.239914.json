@@ -1,0 +1,1615 @@
+{
+  "results": {
+    "eus_exams_eu": {
+      "acc,none": 0.5600992113965912,
+      "acc_stderr,none": 0.003932066175416732,
+      "alias": "eus_exams_eu"
+    },
+    "eus_exams_eu_city_council": {
+      "acc,none": 0.5595959595959598,
+      "acc_stderr,none": 0.015785675178914806,
+      "alias": " - eus_exams_eu_city_council"
+    },
+    "eus_exams_eu_opebilbaoeu": {
+      "alias": "  - eus_exams_eu_opebilbaoeu",
+      "acc,none": 0.5476190476190477,
+      "acc_stderr,none": 0.019845685530799104
+    },
+    "eus_exams_eu_opegasteizkoudala": {
+      "alias": "  - eus_exams_eu_opegasteizkoudala",
+      "acc,none": 0.5805555555555556,
+      "acc_stderr,none": 0.026044252167122466
+    },
+    "eus_exams_eu_health_system": {
+      "acc,none": 0.5255310727008841,
+      "acc_stderr,none": 0.005704139106845913,
+      "alias": " - eus_exams_eu_health_system"
+    },
+    "eus_exams_eu_opeosakiadmineu": {
+      "alias": "  - eus_exams_eu_opeosakiadmineu",
+      "acc,none": 0.5254237288135594,
+      "acc_stderr,none": 0.03257421209597023
+    },
+    "eus_exams_eu_opeosakiauxenfeu": {
+      "alias": "  - eus_exams_eu_opeosakiauxenfeu",
+      "acc,none": 0.5209580838323353,
+      "acc_stderr,none": 0.03877341956277293
+    },
+    "eus_exams_eu_opeosakiauxeu": {
+      "alias": "  - eus_exams_eu_opeosakiauxeu",
+      "acc,none": 0.5393939393939394,
+      "acc_stderr,none": 0.03892207016552012
+    },
+    "eus_exams_eu_opeosakiceladoreu": {
+      "alias": "  - eus_exams_eu_opeosakiceladoreu",
+      "acc,none": 0.5337423312883436,
+      "acc_stderr,none": 0.039194155450484096
+    },
+    "eus_exams_eu_opeosakienfeu": {
+      "alias": "  - eus_exams_eu_opeosakienfeu",
+      "acc,none": 0.49865951742627346,
+      "acc_stderr,none": 0.025923699203503615
+    },
+    "eus_exams_eu_opeosakioperarioeu": {
+      "alias": "  - eus_exams_eu_opeosakioperarioeu",
+      "acc,none": 0.5801526717557252,
+      "acc_stderr,none": 0.04328577215262971
+    },
+    "eus_exams_eu_opeosakitecnicoeu": {
+      "alias": "  - eus_exams_eu_opeosakitecnicoeu",
+      "acc,none": 0.514018691588785,
+      "acc_stderr,none": 0.02793986154930238
+    },
+    "eus_exams_eu_opeosakivarioseu": {
+      "alias": "  - eus_exams_eu_opeosakivarioseu",
+      "acc,none": 0.5075187969924813,
+      "acc_stderr,none": 0.03071128289326475
+    },
+    "eus_exams_eu_osakidetza1e": {
+      "alias": "  - eus_exams_eu_osakidetza1e",
+      "acc,none": 0.39258114374034003,
+      "acc_stderr,none": 0.019212885467503625
+    },
+    "eus_exams_eu_osakidetza2e": {
+      "alias": "  - eus_exams_eu_osakidetza2e",
+      "acc,none": 0.4679144385026738,
+      "acc_stderr,none": 0.01825633765159361
+    },
+    "eus_exams_eu_osakidetza3e": {
+      "alias": "  - eus_exams_eu_osakidetza3e",
+      "acc,none": 0.5409836065573771,
+      "acc_stderr,none": 0.021287069170199038
+    },
+    "eus_exams_eu_osakidetza5e": {
+      "alias": "  - eus_exams_eu_osakidetza5e",
+      "acc,none": 0.5769230769230769,
+      "acc_stderr,none": 0.01939305708036961
+    },
+    "eus_exams_eu_osakidetza6e": {
+      "alias": "  - eus_exams_eu_osakidetza6e",
+      "acc,none": 0.613,
+      "acc_stderr,none": 0.01541001195549393
+    },
+    "eus_exams_eu_osakidetza7e": {
+      "alias": "  - eus_exams_eu_osakidetza7e",
+      "acc,none": 0.5293573740175682,
+      "acc_stderr,none": 0.010734758241377965
+    },
+    "eus_exams_eu_public_office": {
+      "acc,none": 0.6109387121799845,
+      "acc_stderr,none": 0.009575019894670633,
+      "alias": " - eus_exams_eu_public_office"
+    },
+    "eus_exams_eu_ejadministrari": {
+      "alias": "  - eus_exams_eu_ejadministrari",
+      "acc,none": 0.5517241379310345,
+      "acc_stderr,none": 0.01886432488367831
+    },
+    "eus_exams_eu_ejlaguntza": {
+      "alias": "  - eus_exams_eu_ejlaguntza",
+      "acc,none": 0.6706827309236948,
+      "acc_stderr,none": 0.021080825838592925
+    },
+    "eus_exams_eu_ejlaguntzaile": {
+      "alias": "  - eus_exams_eu_ejlaguntzaile",
+      "acc,none": 0.6269727403156384,
+      "acc_stderr,none": 0.018331161961933084
+    },
+    "eus_exams_eu_ejteknikari": {
+      "alias": "  - eus_exams_eu_ejteknikari",
+      "acc,none": 0.611353711790393,
+      "acc_stderr,none": 0.018610647398847505
+    },
+    "eus_exams_eu_university": {
+      "acc,none": 0.5888136333843129,
+      "acc_stderr,none": 0.007246800748827323,
+      "alias": " - eus_exams_eu_university"
+    },
+    "eus_exams_eu_opeehuadmineu": {
+      "alias": "  - eus_exams_eu_opeehuadmineu",
+      "acc,none": 0.6292585170340681,
+      "acc_stderr,none": 0.021643897633452737
+    },
+    "eus_exams_eu_opeehuauxeu": {
+      "alias": "  - eus_exams_eu_opeehuauxeu",
+      "acc,none": 0.6555555555555556,
+      "acc_stderr,none": 0.022425450321648773
+    },
+    "eus_exams_eu_opeehubiblioeu": {
+      "alias": "  - eus_exams_eu_opeehubiblioeu",
+      "acc,none": 0.6076794657762938,
+      "acc_stderr,none": 0.019966742107435417
+    },
+    "eus_exams_eu_opeehuderechoeu": {
+      "alias": "  - eus_exams_eu_opeehuderechoeu",
+      "acc,none": 0.5171428571428571,
+      "acc_stderr,none": 0.018900618123468497
+    },
+    "eus_exams_eu_opeehueconomicaseu": {
+      "alias": "  - eus_exams_eu_opeehueconomicaseu",
+      "acc,none": 0.5413105413105413,
+      "acc_stderr,none": 0.02663474847298062
+    },
+    "eus_exams_eu_opeehuempresarialeseu": {
+      "alias": "  - eus_exams_eu_opeehuempresarialeseu",
+      "acc,none": 0.5928571428571429,
+      "acc_stderr,none": 0.02941347501771857
+    },
+    "eus_exams_eu_opeehusubalternoeu": {
+      "alias": "  - eus_exams_eu_opeehusubalternoeu",
+      "acc,none": 0.645,
+      "acc_stderr,none": 0.023955629410456463
+    },
+    "eus_exams_eu_opeehutecnicoeu": {
+      "alias": "  - eus_exams_eu_opeehutecnicoeu",
+      "acc,none": 0.5464949928469242,
+      "acc_stderr,none": 0.018843276701475644
+    },
+    "eus_exams_eu_opeehuteknikarib": {
+      "alias": "  - eus_exams_eu_opeehuteknikarib",
+      "acc,none": 0.6076794657762938,
+      "acc_stderr,none": 0.019966742107435407
+    }
+  },
+  "groups": {
+    "eus_exams_eu": {
+      "acc,none": 0.5600992113965912,
+      "acc_stderr,none": 0.003932066175416732,
+      "alias": "eus_exams_eu"
+    },
+    "eus_exams_eu_city_council": {
+      "acc,none": 0.5595959595959598,
+      "acc_stderr,none": 0.015785675178914806,
+      "alias": " - eus_exams_eu_city_council"
+    },
+    "eus_exams_eu_health_system": {
+      "acc,none": 0.5255310727008841,
+      "acc_stderr,none": 0.005704139106845913,
+      "alias": " - eus_exams_eu_health_system"
+    },
+    "eus_exams_eu_public_office": {
+      "acc,none": 0.6109387121799845,
+      "acc_stderr,none": 0.009575019894670633,
+      "alias": " - eus_exams_eu_public_office"
+    },
+    "eus_exams_eu_university": {
+      "acc,none": 0.5888136333843129,
+      "acc_stderr,none": 0.007246800748827323,
+      "alias": " - eus_exams_eu_university"
+    }
+  },
+  "group_subtasks": {
+    "eus_exams_eu_health_system": [
+      "eus_exams_eu_opeosakiadmineu",
+      "eus_exams_eu_opeosakiauxenfeu",
+      "eus_exams_eu_opeosakiauxeu",
+      "eus_exams_eu_opeosakiceladoreu",
+      "eus_exams_eu_opeosakienfeu",
+      "eus_exams_eu_opeosakioperarioeu",
+      "eus_exams_eu_opeosakitecnicoeu",
+      "eus_exams_eu_opeosakivarioseu",
+      "eus_exams_eu_osakidetza1e",
+      "eus_exams_eu_osakidetza2e",
+      "eus_exams_eu_osakidetza3e",
+      "eus_exams_eu_osakidetza5e",
+      "eus_exams_eu_osakidetza6e",
+      "eus_exams_eu_osakidetza7e"
+    ],
+    "eus_exams_eu_university": [
+      "eus_exams_eu_opeehuadmineu",
+      "eus_exams_eu_opeehuauxeu",
+      "eus_exams_eu_opeehubiblioeu",
+      "eus_exams_eu_opeehuderechoeu",
+      "eus_exams_eu_opeehueconomicaseu",
+      "eus_exams_eu_opeehuempresarialeseu",
+      "eus_exams_eu_opeehusubalternoeu",
+      "eus_exams_eu_opeehutecnicoeu",
+      "eus_exams_eu_opeehuteknikarib"
+    ],
+    "eus_exams_eu_city_council": [
+      "eus_exams_eu_opebilbaoeu",
+      "eus_exams_eu_opegasteizkoudala"
+    ],
+    "eus_exams_eu_public_office": [
+      "eus_exams_eu_ejadministrari",
+      "eus_exams_eu_ejlaguntza",
+      "eus_exams_eu_ejlaguntzaile",
+      "eus_exams_eu_ejteknikari"
+    ],
+    "eus_exams_eu": [
+      "eus_exams_eu_public_office",
+      "eus_exams_eu_city_council",
+      "eus_exams_eu_university",
+      "eus_exams_eu_health_system"
+    ]
+  },
+  "configs": {
+    "eus_exams_eu_ejadministrari": {
+      "task": "eus_exams_eu_ejadministrari",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_ejadministrari",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_ejlaguntza": {
+      "task": "eus_exams_eu_ejlaguntza",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_ejlaguntza",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_ejlaguntzaile": {
+      "task": "eus_exams_eu_ejlaguntzaile",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_ejlaguntzaile",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_ejteknikari": {
+      "task": "eus_exams_eu_ejteknikari",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_ejteknikari",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_opebilbaoeu": {
+      "task": "eus_exams_eu_opebilbaoeu",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_opebilbaoeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_opeehuadmineu": {
+      "task": "eus_exams_eu_opeehuadmineu",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_opeehuadmineu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_opeehuauxeu": {
+      "task": "eus_exams_eu_opeehuauxeu",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_opeehuauxeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_opeehubiblioeu": {
+      "task": "eus_exams_eu_opeehubiblioeu",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_opeehubiblioeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_opeehuderechoeu": {
+      "task": "eus_exams_eu_opeehuderechoeu",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_opeehuderechoeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_opeehueconomicaseu": {
+      "task": "eus_exams_eu_opeehueconomicaseu",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_opeehueconomicaseu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_opeehuempresarialeseu": {
+      "task": "eus_exams_eu_opeehuempresarialeseu",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_opeehuempresarialeseu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_opeehusubalternoeu": {
+      "task": "eus_exams_eu_opeehusubalternoeu",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_opeehusubalternoeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_opeehutecnicoeu": {
+      "task": "eus_exams_eu_opeehutecnicoeu",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_opeehutecnicoeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_opeehuteknikarib": {
+      "task": "eus_exams_eu_opeehuteknikarib",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_opeehuteknikarib",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_opegasteizkoudala": {
+      "task": "eus_exams_eu_opegasteizkoudala",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_opegasteizkoudala",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_opeosakiadmineu": {
+      "task": "eus_exams_eu_opeosakiadmineu",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_opeosakiadmineu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_opeosakiauxenfeu": {
+      "task": "eus_exams_eu_opeosakiauxenfeu",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_opeosakiauxenfeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_opeosakiauxeu": {
+      "task": "eus_exams_eu_opeosakiauxeu",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_opeosakiauxeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_opeosakiceladoreu": {
+      "task": "eus_exams_eu_opeosakiceladoreu",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_opeosakiceladoreu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_opeosakienfeu": {
+      "task": "eus_exams_eu_opeosakienfeu",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_opeosakienfeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_opeosakioperarioeu": {
+      "task": "eus_exams_eu_opeosakioperarioeu",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_opeosakioperarioeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_opeosakitecnicoeu": {
+      "task": "eus_exams_eu_opeosakitecnicoeu",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_opeosakitecnicoeu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_opeosakivarioseu": {
+      "task": "eus_exams_eu_opeosakivarioseu",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_opeosakivarioseu",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_osakidetza1e": {
+      "task": "eus_exams_eu_osakidetza1e",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_osakidetza1e",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_osakidetza2e": {
+      "task": "eus_exams_eu_osakidetza2e",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_osakidetza2e",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_osakidetza3e": {
+      "task": "eus_exams_eu_osakidetza3e",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_osakidetza3e",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_osakidetza5e": {
+      "task": "eus_exams_eu_osakidetza5e",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_osakidetza5e",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_osakidetza6e": {
+      "task": "eus_exams_eu_osakidetza6e",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_osakidetza6e",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    },
+    "eus_exams_eu_osakidetza7e": {
+      "task": "eus_exams_eu_osakidetza7e",
+      "dataset_path": "HiTZ/EusExams",
+      "dataset_name": "eu_osakidetza7e",
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs(dataset: datasets.Dataset):\n    \"\"\"Filter out examples with no answer.\"\"\"\n\n    def valid_example(example: dict) -> bool:\n        \"\"\"Check if an example is valid.\"\"\"\n        if example[\"answer\"] not in [0, 1, 2, 3]:\n            return False\n        if example[\"candidates\"] == [\"\", \"\", \"\", \"\"]:\n            return False\n        return True\n\n    return dataset.filter(valid_example)\n",
+      "doc_to_text": "Galdera: {{question}}\nA: {{candidates[0]}}\nB: {{candidates[1]}}\nC: {{candidates[2]}}\nD: {{candidates[3]}}\nErantzuna:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0
+      }
+    }
+  },
+  "versions": {
+    "eus_exams_eu": 1.0,
+    "eus_exams_eu_city_council": 1.0,
+    "eus_exams_eu_ejadministrari": 0.0,
+    "eus_exams_eu_ejlaguntza": 0.0,
+    "eus_exams_eu_ejlaguntzaile": 0.0,
+    "eus_exams_eu_ejteknikari": 0.0,
+    "eus_exams_eu_health_system": 1.0,
+    "eus_exams_eu_opebilbaoeu": 0.0,
+    "eus_exams_eu_opeehuadmineu": 0.0,
+    "eus_exams_eu_opeehuauxeu": 0.0,
+    "eus_exams_eu_opeehubiblioeu": 0.0,
+    "eus_exams_eu_opeehuderechoeu": 0.0,
+    "eus_exams_eu_opeehueconomicaseu": 0.0,
+    "eus_exams_eu_opeehuempresarialeseu": 0.0,
+    "eus_exams_eu_opeehusubalternoeu": 0.0,
+    "eus_exams_eu_opeehutecnicoeu": 0.0,
+    "eus_exams_eu_opeehuteknikarib": 0.0,
+    "eus_exams_eu_opegasteizkoudala": 0.0,
+    "eus_exams_eu_opeosakiadmineu": 0.0,
+    "eus_exams_eu_opeosakiauxenfeu": 0.0,
+    "eus_exams_eu_opeosakiauxeu": 0.0,
+    "eus_exams_eu_opeosakiceladoreu": 0.0,
+    "eus_exams_eu_opeosakienfeu": 0.0,
+    "eus_exams_eu_opeosakioperarioeu": 0.0,
+    "eus_exams_eu_opeosakitecnicoeu": 0.0,
+    "eus_exams_eu_opeosakivarioseu": 0.0,
+    "eus_exams_eu_osakidetza1e": 0.0,
+    "eus_exams_eu_osakidetza2e": 0.0,
+    "eus_exams_eu_osakidetza3e": 0.0,
+    "eus_exams_eu_osakidetza5e": 0.0,
+    "eus_exams_eu_osakidetza6e": 0.0,
+    "eus_exams_eu_osakidetza7e": 0.0,
+    "eus_exams_eu_public_office": 1.0,
+    "eus_exams_eu_university": 1.0
+  },
+  "n-shot": {
+    "eus_exams_eu_ejadministrari": 5,
+    "eus_exams_eu_ejlaguntza": 5,
+    "eus_exams_eu_ejlaguntzaile": 5,
+    "eus_exams_eu_ejteknikari": 5,
+    "eus_exams_eu_opebilbaoeu": 5,
+    "eus_exams_eu_opeehuadmineu": 5,
+    "eus_exams_eu_opeehuauxeu": 5,
+    "eus_exams_eu_opeehubiblioeu": 5,
+    "eus_exams_eu_opeehuderechoeu": 5,
+    "eus_exams_eu_opeehueconomicaseu": 5,
+    "eus_exams_eu_opeehuempresarialeseu": 5,
+    "eus_exams_eu_opeehusubalternoeu": 5,
+    "eus_exams_eu_opeehutecnicoeu": 5,
+    "eus_exams_eu_opeehuteknikarib": 5,
+    "eus_exams_eu_opegasteizkoudala": 5,
+    "eus_exams_eu_opeosakiadmineu": 5,
+    "eus_exams_eu_opeosakiauxenfeu": 5,
+    "eus_exams_eu_opeosakiauxeu": 5,
+    "eus_exams_eu_opeosakiceladoreu": 5,
+    "eus_exams_eu_opeosakienfeu": 5,
+    "eus_exams_eu_opeosakioperarioeu": 5,
+    "eus_exams_eu_opeosakitecnicoeu": 5,
+    "eus_exams_eu_opeosakivarioseu": 5,
+    "eus_exams_eu_osakidetza1e": 5,
+    "eus_exams_eu_osakidetza2e": 5,
+    "eus_exams_eu_osakidetza3e": 5,
+    "eus_exams_eu_osakidetza5e": 5,
+    "eus_exams_eu_osakidetza6e": 5,
+    "eus_exams_eu_osakidetza7e": 5
+  },
+  "higher_is_better": {
+    "eus_exams_eu": {
+      "acc": true
+    },
+    "eus_exams_eu_city_council": {
+      "acc": true
+    },
+    "eus_exams_eu_ejadministrari": {
+      "acc": true
+    },
+    "eus_exams_eu_ejlaguntza": {
+      "acc": true
+    },
+    "eus_exams_eu_ejlaguntzaile": {
+      "acc": true
+    },
+    "eus_exams_eu_ejteknikari": {
+      "acc": true
+    },
+    "eus_exams_eu_health_system": {
+      "acc": true
+    },
+    "eus_exams_eu_opebilbaoeu": {
+      "acc": true
+    },
+    "eus_exams_eu_opeehuadmineu": {
+      "acc": true
+    },
+    "eus_exams_eu_opeehuauxeu": {
+      "acc": true
+    },
+    "eus_exams_eu_opeehubiblioeu": {
+      "acc": true
+    },
+    "eus_exams_eu_opeehuderechoeu": {
+      "acc": true
+    },
+    "eus_exams_eu_opeehueconomicaseu": {
+      "acc": true
+    },
+    "eus_exams_eu_opeehuempresarialeseu": {
+      "acc": true
+    },
+    "eus_exams_eu_opeehusubalternoeu": {
+      "acc": true
+    },
+    "eus_exams_eu_opeehutecnicoeu": {
+      "acc": true
+    },
+    "eus_exams_eu_opeehuteknikarib": {
+      "acc": true
+    },
+    "eus_exams_eu_opegasteizkoudala": {
+      "acc": true
+    },
+    "eus_exams_eu_opeosakiadmineu": {
+      "acc": true
+    },
+    "eus_exams_eu_opeosakiauxenfeu": {
+      "acc": true
+    },
+    "eus_exams_eu_opeosakiauxeu": {
+      "acc": true
+    },
+    "eus_exams_eu_opeosakiceladoreu": {
+      "acc": true
+    },
+    "eus_exams_eu_opeosakienfeu": {
+      "acc": true
+    },
+    "eus_exams_eu_opeosakioperarioeu": {
+      "acc": true
+    },
+    "eus_exams_eu_opeosakitecnicoeu": {
+      "acc": true
+    },
+    "eus_exams_eu_opeosakivarioseu": {
+      "acc": true
+    },
+    "eus_exams_eu_osakidetza1e": {
+      "acc": true
+    },
+    "eus_exams_eu_osakidetza2e": {
+      "acc": true
+    },
+    "eus_exams_eu_osakidetza3e": {
+      "acc": true
+    },
+    "eus_exams_eu_osakidetza5e": {
+      "acc": true
+    },
+    "eus_exams_eu_osakidetza6e": {
+      "acc": true
+    },
+    "eus_exams_eu_osakidetza7e": {
+      "acc": true
+    },
+    "eus_exams_eu_public_office": {
+      "acc": true
+    },
+    "eus_exams_eu_university": {
+      "acc": true
+    }
+  },
+  "n-samples": {
+    "eus_exams_eu_ejadministrari": {
+      "original": 696,
+      "effective": 696
+    },
+    "eus_exams_eu_ejlaguntza": {
+      "original": 498,
+      "effective": 498
+    },
+    "eus_exams_eu_ejlaguntzaile": {
+      "original": 697,
+      "effective": 697
+    },
+    "eus_exams_eu_ejteknikari": {
+      "original": 687,
+      "effective": 687
+    },
+    "eus_exams_eu_opebilbaoeu": {
+      "original": 630,
+      "effective": 630
+    },
+    "eus_exams_eu_opegasteizkoudala": {
+      "original": 360,
+      "effective": 360
+    },
+    "eus_exams_eu_opeehuadmineu": {
+      "original": 499,
+      "effective": 499
+    },
+    "eus_exams_eu_opeehuauxeu": {
+      "original": 450,
+      "effective": 450
+    },
+    "eus_exams_eu_opeehubiblioeu": {
+      "original": 599,
+      "effective": 599
+    },
+    "eus_exams_eu_opeehuderechoeu": {
+      "original": 700,
+      "effective": 700
+    },
+    "eus_exams_eu_opeehueconomicaseu": {
+      "original": 351,
+      "effective": 351
+    },
+    "eus_exams_eu_opeehuempresarialeseu": {
+      "original": 280,
+      "effective": 280
+    },
+    "eus_exams_eu_opeehusubalternoeu": {
+      "original": 400,
+      "effective": 400
+    },
+    "eus_exams_eu_opeehutecnicoeu": {
+      "original": 699,
+      "effective": 699
+    },
+    "eus_exams_eu_opeehuteknikarib": {
+      "original": 599,
+      "effective": 599
+    },
+    "eus_exams_eu_opeosakiadmineu": {
+      "original": 236,
+      "effective": 236
+    },
+    "eus_exams_eu_opeosakiauxenfeu": {
+      "original": 167,
+      "effective": 167
+    },
+    "eus_exams_eu_opeosakiauxeu": {
+      "original": 165,
+      "effective": 165
+    },
+    "eus_exams_eu_opeosakiceladoreu": {
+      "original": 163,
+      "effective": 163
+    },
+    "eus_exams_eu_opeosakienfeu": {
+      "original": 373,
+      "effective": 373
+    },
+    "eus_exams_eu_opeosakioperarioeu": {
+      "original": 131,
+      "effective": 131
+    },
+    "eus_exams_eu_opeosakitecnicoeu": {
+      "original": 321,
+      "effective": 321
+    },
+    "eus_exams_eu_opeosakivarioseu": {
+      "original": 266,
+      "effective": 266
+    },
+    "eus_exams_eu_osakidetza1e": {
+      "original": 647,
+      "effective": 647
+    },
+    "eus_exams_eu_osakidetza2e": {
+      "original": 748,
+      "effective": 748
+    },
+    "eus_exams_eu_osakidetza3e": {
+      "original": 549,
+      "effective": 549
+    },
+    "eus_exams_eu_osakidetza5e": {
+      "original": 650,
+      "effective": 650
+    },
+    "eus_exams_eu_osakidetza6e": {
+      "original": 1000,
+      "effective": 1000
+    },
+    "eus_exams_eu_osakidetza7e": {
+      "original": 2163,
+      "effective": 2163
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=HiTZ/Latxa-Llama-3.1-8B-Instruct,attn_implementation=flash_attention_2,dtype=bfloat16,revision=exp_2_110",
+    "model_num_parameters": 8030261248,
+    "model_dtype": "torch.bfloat16",
+    "model_revision": "main",
+    "model_sha": "",
+    "batch_size": "auto:10",
+    "batch_sizes": [
+      16,
+      32,
+      32,
+      64,
+      64,
+      64,
+      64,
+      64,
+      64,
+      64,
+      64
+    ],
+    "device": "cuda",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": "fede5c0",
+  "date": 1740506033.808537,
+  "pretty_env_info": "PyTorch version: 2.4.1+cu121\nIs debug build: False\nCUDA used to build PyTorch: 12.1\nROCM used to build PyTorch: N/A\n\nOS: Rocky Linux 8.8 (Green Obsidian) (x86_64)\nGCC version: (GCC) 8.5.0 20210514 (Red Hat 8.5.0-18)\nClang version: Could not collect\nCMake version: version 3.25.2\nLibc version: glibc-2.28\n\nPython version: 3.9.7 (default, Oct  1 2021, 12:52:57)  [GCC 8.4.1 20200928 (Red Hat 8.4.1-1)] (64-bit runtime)\nPython platform: Linux-4.18.0-477.10.1.el8_8.x86_64-x86_64-with-glibc2.28\nIs CUDA available: True\nCUDA runtime version: 12.1.105\nCUDA_MODULE_LOADING set to: LAZY\nGPU models and configuration: \nGPU 0: NVIDIA A100-SXM4-80GB\nGPU 1: NVIDIA A100-SXM4-80GB\nGPU 2: NVIDIA A100-SXM4-80GB\nGPU 3: NVIDIA A100-SXM4-80GB\nGPU 4: NVIDIA A100-SXM4-80GB\nGPU 5: NVIDIA A100-SXM4-80GB\nGPU 6: NVIDIA A100-SXM4-80GB\nGPU 7: NVIDIA A100-SXM4-80GB\n\nNvidia driver version: 530.30.02\ncuDNN version: Probably one of the following:\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn.so.8\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_adv_infer.so.8\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_adv_train.so.8\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_cnn_infer.so.8\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_cnn_train.so.8\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_ops_infer.so.8\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_ops_train.so.8\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\n\nCPU:\nArchitecture:        x86_64\nCPU op-mode(s):      32-bit, 64-bit\nByte Order:          Little Endian\nCPU(s):              128\nOn-line CPU(s) list: 0-127\nThread(s) per core:  2\nCore(s) per socket:  32\nSocket(s):           2\nNUMA node(s):        2\nVendor ID:           AuthenticAMD\nCPU family:          25\nModel:               1\nModel name:          AMD EPYC 75F3 32-Core Processor\nStepping:            1\nCPU MHz:             3596.160\nCPU max MHz:         4041,8450\nCPU min MHz:         1500,0000\nBogoMIPS:            5900.18\nVirtualization:      AMD-V\nL1d cache:           32K\nL1i cache:           32K\nL2 cache:            512K\nL3 cache:            32768K\nNUMA node0 CPU(s):   0-31,64-95\nNUMA node1 CPU(s):   32-63,96-127\nFlags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd amd_ppin brs arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca\n\nVersions of relevant libraries:\n[pip3] flake8==6.0.0\n[pip3] mypy-extensions==1.0.0\n[pip3] numpy==1.26.4\n[pip3] torch==2.4.1\n[pip3] torchaudio==2.4.1\n[pip3] torchvision==0.19.1\n[pip3] triton==3.0.0\n[conda] Could not collect",
+  "transformers_version": "4.46.3",
+  "upper_git_hash": null,
+  "tokenizer_pad_token": [
+    "<|end_of_text|>",
+    "128001"
+  ],
+  "tokenizer_eos_token": [
+    "<|eot_id|>",
+    "128009"
+  ],
+  "tokenizer_bos_token": [
+    "<|begin_of_text|>",
+    "128000"
+  ],
+  "eot_token_id": 128009,
+  "max_length": 131072,
+  "task_hashes": {
+    "eus_exams_eu_ejadministrari": "9b17cb91b3841d3ea3cacfeb73c81579db0c1c451ae5e67a6b0d978ca66ed64a",
+    "eus_exams_eu_ejlaguntza": "959b37bc771439fcc1216e1c42c197a5db0dddec93a993cfc987c4907a1328dc",
+    "eus_exams_eu_ejlaguntzaile": "ff3e0558ee0e5342e68452e1a8b8b633f378590e9884e2a9bf9c670b78687ba2",
+    "eus_exams_eu_ejteknikari": "1026217ad10d182e548916f87327e4a40fc9a6e67d5a103799d1fa6117acdfd6",
+    "eus_exams_eu_opebilbaoeu": "2d168727cf2deb7e43f3c9d7d7d3ff587446fa56d5c90fe00b165e765b59569e",
+    "eus_exams_eu_opegasteizkoudala": "f0006cb66bfd8e998d1f46b0074a4151588c9e2af64349424a7bf013fb24bfa1",
+    "eus_exams_eu_opeehuadmineu": "f9fa3f72e3efd77739b2023aa6118b0d20f63f0d48cbfdd393b864625261c68a",
+    "eus_exams_eu_opeehuauxeu": "4c5938d4c37f0c88a4f81a496b3eada76042e51d4a7bd10e6df384b9ccd32d19",
+    "eus_exams_eu_opeehubiblioeu": "430bfe81a886778881c56209e68e97f4bed414bf74130577ddaee7dbd1888d59",
+    "eus_exams_eu_opeehuderechoeu": "67bbaa4528cc6476e9eb699440ffc780aa02531bb80a359239328ef9a793a895",
+    "eus_exams_eu_opeehueconomicaseu": "29a1b322f88d43941e60a0dcd12c0a67bf86c0df04b9e9502cc49b9dcdd0dae6",
+    "eus_exams_eu_opeehuempresarialeseu": "e7e853da828db50171e4d9b98715c039d3862786b756ddf89389332b25d4a2db",
+    "eus_exams_eu_opeehusubalternoeu": "ff2da2e5e0cb9d2d707c3de527c7edc2015afcfb487e9164f0d62cca92255ee7",
+    "eus_exams_eu_opeehutecnicoeu": "f9d16b031de520833fae6ad7a3408a7479be0f42434bcec56bba3625ee0f9936",
+    "eus_exams_eu_opeehuteknikarib": "f23c0b8d4772892e503d17a962d85434173f473fbd84cc40e27863b186e61987",
+    "eus_exams_eu_opeosakiadmineu": "7a8d4d9cde8a89d6ce6b1ec477bfd766dd1460b6b4c2556bb78a645c8257b7cf",
+    "eus_exams_eu_opeosakiauxenfeu": "e8bbe1a18f9176ff6e9747b2bc5c31b8e9f2c52f361dc79aa92cdbe29a248fe8",
+    "eus_exams_eu_opeosakiauxeu": "73116193395239643909709c177a6e2840c7ccc76edf8b813280fcd5c2240167",
+    "eus_exams_eu_opeosakiceladoreu": "f9a351b814fc52162daa2f5a4f5a87f55f36587b8a585aa6b045f50f7a2433bb",
+    "eus_exams_eu_opeosakienfeu": "f17710ac685d8f477a67cca7314709b8e72883d867cf26b20532e24407b87368",
+    "eus_exams_eu_opeosakioperarioeu": "d5e86d26200202a9194ae93e7b06c74dd2e9affc44d735074f86042e37735ca9",
+    "eus_exams_eu_opeosakitecnicoeu": "6e215b34439c59cecc513e10374d6e7968e9002b66184e9d94356ac32af77dba",
+    "eus_exams_eu_opeosakivarioseu": "df84eef0cc996085691fc94c47c9611b222ebf61135b8535b4c749dc676b0219",
+    "eus_exams_eu_osakidetza1e": "3af6c78bd7ffaad688405b3c9a8a90ac8341768790e863aece182459137c51fc",
+    "eus_exams_eu_osakidetza2e": "1f9f871f41b63415fa92a80e630dad96b344203d5a181905400824defaec6e99",
+    "eus_exams_eu_osakidetza3e": "a9d1ecc91f78710b8dce3d7cc2c1e75dd5eeab31cfa489efb2da41b0fa0673ac",
+    "eus_exams_eu_osakidetza5e": "32bad514ca3909bb3c7b402a3af4bbb49ae38120cae8d9c3be0cf1c4440c357f",
+    "eus_exams_eu_osakidetza6e": "f06ff0c5cc2b38f32bed093f095f0b8a0c6750db4099fea8d766ec790bb9665b",
+    "eus_exams_eu_osakidetza7e": "c280d519284756a0e28f23ef697fa09067f6134a899078c64ea2c60afcf92281"
+  },
+  "model_source": "hf",
+  "model_name": "HiTZ/Latxa-Llama-3.1-8B-Instruct",
+  "model_name_sanitized": "HiTZ__Latxa-Llama-3.1-8B-Instruct",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": true,
+  "chat_template": "{{- bos_token }}\n{%- if custom_tools is defined %}\n    {%- set tools = custom_tools %}\n{%- endif %}\n{%- if not tools_in_user_message is defined %}\n    {%- set tools_in_user_message = true %}\n{%- endif %}\n{%- if not date_string is defined %}\n    {%- set date_string = \"26 Jul 2024\" %}\n{%- endif %}\n{%- if not tools is defined %}\n    {%- set tools = none %}\n{%- endif %}\n\n{#- This block extracts the system message, so we can slot it into the right place. #}\n{%- if messages[0]['role'] == 'system' %}\n    {%- set system_message = messages[0]['content']|trim %}\n    {%- set messages = messages[1:] %}\n{%- else %}\n    {%- set system_message = \"\" %}\n{%- endif %}\n\n{#- System message + builtin tools #}\n{{- \"<|start_header_id|>system<|end_header_id|>\\n\\n\" }}\n{%- if builtin_tools is defined or tools is not none %}\n    {{- \"Environment: ipython\\n\" }}\n{%- endif %}\n{%- if builtin_tools is defined %}\n    {{- \"Tools: \" + builtin_tools | reject('equalto', 'code_interpreter') | join(\", \") + \"\\n\\n\"}}\n{%- endif %}\n{{- \"Cutting Knowledge Date: December 2023\\n\" }}\n{{- \"Today Date: \" + date_string + \"\\n\\n\" }}\n{%- if tools is not none and not tools_in_user_message %}\n    {{- \"You have access to the following functions. To call a function, please respond with JSON for a function call.\" }}\n    {{- 'Respond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}.' }}\n    {{- \"Do not use variables.\\n\\n\" }}\n    {%- for t in tools %}\n        {{- t | tojson(indent=4) }}\n        {{- \"\\n\\n\" }}\n    {%- endfor %}\n{%- endif %}\n{{- system_message }}\n{{- \"<|eot_id|>\" }}\n\n{#- Custom tools are passed in a user message with some extra guidance #}\n{%- if tools_in_user_message and not tools is none %}\n    {#- Extract the first user message so we can plug it in here #}\n    {%- if messages | length != 0 %}\n        {%- set first_user_message = messages[0]['content']|trim %}\n        {%- set messages = messages[1:] %}\n    {%- else %}\n        {{- raise_exception(\"Cannot put tools in the first user message when there's no first user message!\") }}\n{%- endif %}\n    {{- '<|start_header_id|>user<|end_header_id|>\\n\\n' -}}\n    {{- \"Given the following functions, please respond with a JSON for a function call \" }}\n    {{- \"with its proper arguments that best answers the given prompt.\\n\\n\" }}\n    {{- 'Respond in the format {\"name\": function name, \"parameters\": dictionary of argument name and its value}.' }}\n    {{- \"Do not use variables.\\n\\n\" }}\n    {%- for t in tools %}\n        {{- t | tojson(indent=4) }}\n        {{- \"\\n\\n\" }}\n    {%- endfor %}\n    {{- first_user_message + \"<|eot_id|>\"}}\n{%- endif %}\n\n{%- for message in messages %}\n    {%- if not (message.role == 'ipython' or message.role == 'tool' or 'tool_calls' in message) %}\n        {{- '<|start_header_id|>' + message['role'] + '<|end_header_id|>\\n\\n'+ message['content'] | trim + '<|eot_id|>' }}\n    {%- elif 'tool_calls' in message %}\n        {%- if not message.tool_calls|length == 1 %}\n            {{- raise_exception(\"This model only supports single tool-calls at once!\") }}\n        {%- endif %}\n        {%- set tool_call = message.tool_calls[0].function %}\n        {%- if builtin_tools is defined and tool_call.name in builtin_tools %}\n            {{- '<|start_header_id|>assistant<|end_header_id|>\\n\\n' -}}\n            {{- \"<|python_tag|>\" + tool_call.name + \".call(\" }}\n            {%- for arg_name, arg_val in tool_call.arguments | items %}\n                {{- arg_name + '=\"' + arg_val + '\"' }}\n                {%- if not loop.last %}\n                    {{- \", \" }}\n                {%- endif %}\n                {%- endfor %}\n            {{- \")\" }}\n        {%- else  %}\n            {{- '<|start_header_id|>assistant<|end_header_id|>\\n\\n' -}}\n            {{- '{\"name\": \"' + tool_call.name + '\", ' }}\n            {{- '\"parameters\": ' }}\n            {{- tool_call.arguments | tojson }}\n            {{- \"}\" }}\n        {%- endif %}\n        {%- if builtin_tools is defined %}\n            {#- This means we're in ipython mode #}\n            {{- \"<|eom_id|>\" }}\n        {%- else %}\n            {{- \"<|eot_id|>\" }}\n        {%- endif %}\n    {%- elif message.role == \"tool\" or message.role == \"ipython\" %}\n        {{- \"<|start_header_id|>ipython<|end_header_id|>\\n\\n\" }}\n        {%- if message.content is mapping or message.content is iterable %}\n            {{- message.content | tojson }}\n        {%- else %}\n            {{- message.content }}\n        {%- endif %}\n        {{- \"<|eot_id|>\" }}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|start_header_id|>assistant<|end_header_id|>\\n\\n' }}\n{%- endif %}\n",
+  "chat_template_sha": "e10ca381b1ccc5cf9db52e371f3b6651576caee0a630b452e2816b2d404d4b65",
+  "start_time": 5808948.601646755,
+  "end_time": 5810663.415550804,
+  "total_evaluation_time_seconds": "1714.813904048875"
+}
