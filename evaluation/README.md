@@ -2,9 +2,9 @@
 
 ### Static Benchmarks
 
-The directory [`./scripts/`](./scripts) contains the Slurm scripts to launch static benchmark evaluations with 
+The directory [`./benchmarks/scripts`](benchmarks/scripts) contains the Slurm scripts to launch static benchmark evaluations with 
 EleutherAI's [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) framework.  
-Unless specified otherwise, results are written to the [`./results/`](./results) directory, which currently contains 
+Unless specified otherwise, results are written to the [`./benchmarks/results`](benchmarks/results) directory, which currently contains 
 the actual results obtained and reported in the paper.
 
 #### Setup & Execution
@@ -31,13 +31,13 @@ the actual results obtained and reported in the paper.
    
 ### Human evaluation: _Ebaluatoia_ Arena
 
-The code to run the arena can be found in [frontend](../frontend) and [backend](../backend). See the READMEs therein.  
+The code to run the arena can be found in [`./human/frontend`](human/frontend) and [`./human/backend`](human/backend). See the READMEs therein.  
 The preference data from Ebaluatoia is available at HuggingFace under a CC0 license: [HiTZ/ebaluatoia](https://huggingface.co/datasets/HiTZ/ebaluatoia).
 
 ### Result analysis
 
 The Jupyter notebook `results.ipynb` contains the code to analyze both the results from the static benchmarks and the arena.  
-It also produces the tables and figures included in the paper, which can be found in [`./figures/`](./figures).
+It also produces the tables and figures included in the paper, which can be found in [`./figures`](./figures).
 
 #### Setup & Execution
 
