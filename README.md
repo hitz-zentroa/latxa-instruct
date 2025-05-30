@@ -1,11 +1,11 @@
-<p style="text-align: center;">
+<p align="center">
     <br>
     <img src="assets/latxa_round.png" style="height: 350px;">
     <br>
-    <h1 style="text-align: center;">Latxa-Instruct: Basque Instruction-Tuned Models and Evaluation Arena</h1>
+    <h1 align="center">Latxa-Instruct: Basque Instruction-Tuned Models and Evaluation Arena</h1>
 </p>
 
-<p style="text-align: center;">
+<p align="center">
     <a href="https://github.com/hitz-zentroa/latxa-instruct/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/hitz-zentroa/latxa-instruct"></a>
     <a href="https://huggingface.co/collections/HiTZ/latxa-instruct-682f356091452b0028380804"><img alt="Pretrained Models" src="https://img.shields.io/badge/🤗HuggingFace-Pretrained Models-green"></a>
     <a href="https://www.hitz.eus/en/node/340"><img alt="Blog" src="https://img.shields.io/badge/📒-Blog Post-blue"></a>
