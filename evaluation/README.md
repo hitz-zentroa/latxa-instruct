@@ -24,7 +24,7 @@ the actual results obtained and reported in the paper.
     ```shell
     export LM_HARNESS_VENV="/path/to/your/venv"
     ```
-4. Modify the Slurm scripts as necessary and run them with `sbtach`. For instance
+4. Modify the Slurm scripts as necessary and run them with `sbtach`. For instance:
     ```shell
     sbatch lm_eval_Latxa-Llama-3.1-8B.sh
     ```
@@ -48,7 +48,7 @@ It also produces the tables and figures included in the paper, which can be foun
     ```
 2. Install dependencies:
     ```shell
-    pip jupyter install numpy pandas seaborn matplotlib scipy
+    pip install jupyter numpy pandas seaborn matplotlib scipy
     ```
 3. Run the notebook:
     ```shell
