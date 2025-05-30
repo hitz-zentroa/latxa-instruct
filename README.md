@@ -1,13 +1,13 @@
-<p align="center">
+<p style="text-align: center;">
     <br>
     <img src="assets/latxa_round.png" style="height: 350px;">
     <br>
-    <h1 align="center">Latxa-Instruct: Basque Instruction-Tuned Models and Evaluation Arena</h1>
+    <h1 style="text-align: center;">Latxa-Instruct: Basque Instruction-Tuned Models and Evaluation Arena</h1>
 </p>
 
-<p align="center">
+<p style="text-align: center;">
     <a href="https://github.com/hitz-zentroa/latxa-instruct/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/hitz-zentroa/latxa-instruct"></a>
-    <a href="https://huggingface.co/collections/HiTZ/latxa-65a697e6838b3acc53677304"><img alt="Pretrained Models" src="https://img.shields.io/badge/🤗HuggingFace-Pretrained Models-green"></a>
+    <a href="https://huggingface.co/collections/HiTZ/latxa-instruct-682f356091452b0028380804"><img alt="Pretrained Models" src="https://img.shields.io/badge/🤗HuggingFace-Pretrained Models-green"></a>
     <a href="https://www.hitz.eus/en/node/340"><img alt="Blog" src="https://img.shields.io/badge/📒-Blog Post-blue"></a>
     <a href="https://arxiv.org/abs/2403.20266"><img alt="Paper" src="https://img.shields.io/badge/📖-Paper-orange"></a>
     <br>
@@ -17,60 +17,56 @@
     <br>
 </p>
 
-<p align="justify">
-<b>Latxa-Instruct</b> is an open-source project for training, evaluating, and benchmarking Basque instruction-tuned language models. It provides:
-<ul>
-<li>Basque instruction-tuned models based on Llama 3.1 (8B/70B) and Magpie-generated datasets.</li>
-<li>A Gradio-based interactive evaluation arena for model comparison, user feedback, and leaderboard generation.</li>
-<li>Training and preprocessing scripts for large-scale instruction tuning on the CINECA Leonardo supercomputer.</li>
-<li>Open datasets, configs, and tools for reproducible research on Basque LLMs.</li>
-</ul>
+**Latxa-Instruct** is an open-source project for reproducible training, evaluation, and benchmarking of Basque instruction-tuned language models. It provides:
+
+- **Open-source Basque LLMs**: Instruction-tuned models based on Llama 3.1 (8B and 70B parameters)
+- **Synthetic instruction datasets**: Large-scale generated instruction-response pairs in both Basque and English for reproducible training
+- **Human preference dataset**: The first preference dataset in Basque with real user prompts, model responses, and 12,890 preference annotations from 1,285 participants
+- **Complete training pipeline**: End-to-end scripts for data preprocessing, model training, and instruction-tuning on the CINECA Leonardo supercomputer
+- **Benchmark evaluation framework**: Benchmarking scripts and results across 29 datasets in Basque, English, and Spanish
+- **Human evaluation framework**: Full frontend and backend implementation for community-driven human evaluation of language models
+
 All models, datasets, and evaluation tools are released under open licenses.
-</p>
+
 
 - 📒 Blog Post: TBA
 - 📖 Paper: TBA
-- 🤗 Models: [HiTZ/Latxa Instruct](https://huggingface.co/collections/HiTZ/latxa-instruct-682f356091452b0028380804)
+- 🤗 Models and Data: [HiTZ/Latxa-Instruct](https://huggingface.co/collections/HiTZ/latxa-instruct-682f356091452b0028380804)
 
 ---
 
-# Getting Started
+# Datasets
 
-## Interactive Evaluation Arena
+> 🚧 **Note**: The codebase is currently work in progress. Meanwhile, all datasets are available on Hugging Face.
+> 
+- **Corpus:** Basque corpus of 4.3M documents
+  - https://huggingface.co/datasets/HiTZ/latxa-corpus-v1.1
+- **Instructions:** [Magpie](https://github.com/magpie-align/magpie)-generated Basque/English instructions
+  - https://huggingface.co/datasets/HiTZ/Magpie-Llama-3.1-8B-Instruct-Filtered-1M
+  - https://huggingface.co/datasets/HiTZ/Magpie-Llama-3.1-8B-Instruct-Filtered-translated-1M
+- **Preferences:** Human preferences on model outputs from 21 different LLMs, in response to real Basque prompts
+  - https://huggingface.co/datasets/HiTZ/ebaluatoia
 
-Launch the Gradio-based frontend to compare models and submit feedback:
+# Model training
 
-```bash
-cd frontend
-python3 arena_with_user.py
-```
+> 🚧 **Note**: The codebase is currently work in progress and will require adaptation to your specific environment and setup.
 
-- The app will be available at [http://localhost:7887](http://localhost:7887) by default.
-- Requires Python 3.9+, Gradio, and Hugging Face Hub.
+Training is performed on the CINECA Leonardo cluster using [Axolotl](https://github.com/axolotl-ai-cloud/axolotl) (a HuggingFace-based framework).  
+See [model_training/README.md](model_training/README.md) for full instructions, environment setup, and troubleshooting.
 
-See [frontend/README.md](frontend/README.md) for details.
-
-## Model Training
-
-Training is performed on the CINECA Leonardo cluster using [Axolotl](https://github.com/axolotl-ai-cloud/axolotl) (a HuggingFace-based framework).
-
-### Steps
+### Quicksteps
 
 1. **Prepare the data**  
-   Preprocess instruction datasets and Basque corpora using scripts in [model_training/](model_training/).  
-   Example:
+   Preprocess instruction datasets and Basque corpora using scripts in [model_training/](model_training/). For example:
    ```bash
    sbatch model_training/train_scripts/prepare_data.sh
    ```
    This will tokenize and cache datasets as specified in the YAML configs.
-
 2. **Train the models**  
    Launch training with the provided SLURM scripts:
    ```bash
    sbatch model_training/train_scripts/Latxa-Llama-3.1-70B-Instruct-exp_2_101.sh
    ```
-   See [model_training/README.md](model_training/README.md) for full instructions, environment setup, and troubleshooting.
-
 3. **Merge and transfer checkpoints**  
    After training, merge distributed checkpoints and transfer to the target server using `merge_weights.sh` and `rsync_weights.sh`.
 
@@ -80,21 +76,23 @@ Training is performed on the CINECA Leonardo cluster using [Axolotl](https://git
 - Datasets are in JSONL format, with user/assistant conversations.
 - Example config: [exp_1_010_fixed.yaml](model_training/train_configs/exp_1_010_fixed.yaml)
 
----
+# Evaluation
 
-# Project Structure
+Our evaluation framework combines two complementary approaches to provide comprehensive model assessment: benchmark-based evaluation and human preferences.  
+See [evaluation/README.md](evaluation/README.md) for full instructions, environment setup, and troubleshooting.
 
-- `frontend/` – Gradio app, API integration, user authentication, scoring, and custom UI.
-- `backend/` – Scripts for launching model servers and managing endpoints.
-- `model_training/` – Training configs, scripts, and documentation for Axolotl-based training.
+### Static Benchmarks
+- **29 benchmarks** across Basque, English, and Spanish
+- **6 categories**: reading comprehension, common sense, linguistic proficiency, knowledge, math & reasoning, and bias
+- Automated evaluation using [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness)
+- Full configuration files and results included
 
----
-
-# Datasets
-
-- **Instruction tuning:** Magpie-generated Basque/English instructions ([see details](https://github.com/magpie-align/magpie)).
-- **Pretraining:** Basque corpus (4.3M docs, 4.2B tokens), available on [HuggingFace](https://huggingface.co/datasets/HiTZ/latxa-corpus-v1.1).
-- **Evaluation:** Multiple-choice benchmarks (EusProficiency, EusReading, EusTrivia, EusExams).
+### Human Evaluation: _Ebaluatoia_ arena
+- **Community-driven evaluation** with 1,285 Basque speakers
+- **12,890 preference annotations** collected over 14 days
+- **Multi-dimensional assessment**: content quality, linguistic quality, and overall preference
+- **21 models evaluated** including our variants, GPT-4o, and Claude 3.5 Sonnet
+- Complete arena platform implementation provided
 
 ---
 
@@ -103,13 +101,13 @@ Training is performed on the CINECA Leonardo cluster using [Axolotl](https://git
 If you use Latxa-Instruct, please cite:
 
 ```bibtex
-@misc{etxaniz2024latxa,
-      title={Latxa: An Open Language Model and Evaluation Suite for Basque}, 
-      author={Julen Etxaniz and Oscar Sainz and Naiara Perez and Itziar Aldabe and German Rigau and Eneko Agirre and Aitor Ormazabal and Mikel Artetxe and Aitor Soroa},
-      year={2024},
-      eprint={2403.20266},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@misc{sainz2025instructing,
+    title = {Instructing Large Language Models for Low-Resource Languages: A Systematic Study for Basque},
+    author = {Oscar Sainz and Naiara Perez and Julen Etxaniz and Joseba Fernandez de Landa and Itziar Aldabe and Iker García-Ferrero and Aimar Zabala and Ekhi Azurmendi and German Rigau and Eneko Agirre and Mikel Artetxe and Aitor Soroa},
+    year = {2025},
+    eprint = {TBP},
+    archivePrefix = {arXiv},
+    primaryClass = {cs.CL}
 }
 ```
 
@@ -117,6 +115,5 @@ If you use Latxa-Instruct, please cite:
 
 # Acknowledgements
 
-This work has been partially supported by the Basque Government (IKER-GAITU project), the Ministerio para la Transformación Digital y de la Función Pública (EU – NextGenerationEU, 2022/TL22/00215335), and trained on the Leonardo supercomputer at CINECA under EuroHPC Joint Undertaking, project EHPC-EXT-2024E01-042.
-
----
+This work has been partially supported by the Basque Government (IKER-GAITU project), the Ministerio para la Transformación Digital y de la Función Pública (EU – NextGenerationEU,
+2022/TL22/00215335), and trained on the Leonardo supercomputer at CINECA under EuroHPC Joint Undertaking, project EHPC-EXT-2024E01-042.
