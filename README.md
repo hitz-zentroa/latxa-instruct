@@ -2,7 +2,7 @@
     <br>
     <img src="assets/latxa_round.png" style="height: 350px;">
     <br>
-    <h1 align="center">Latxa-Instruct: Basque Instruction-Tuned Models and Evaluation Arena</h1>
+    <h1 align="center">Latxa-Instruct:<br> Basque Instruction-Tuned Models and Evaluation Arena</h1>
 </p>
 
 <p align="center">
