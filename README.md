@@ -7,9 +7,9 @@
 
 <p align="center">
     <a href="https://github.com/hitz-zentroa/latxa-instruct/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/hitz-zentroa/latxa-instruct"></a>
-    <a href="https://huggingface.co/collections/HiTZ/latxa-instruct-682f356091452b0028380804"><img alt="Pretrained Models" src="https://img.shields.io/badge/🤗HuggingFace-Pretrained Models-green"></a>
+    <a href="https://huggingface.co/collections/HiTZ/latxa-instruct-682f356091452b0028380804"><img alt="Models and Datasets" src="https://img.shields.io/badge/🤗HuggingFace-Pretrained Models-green"></a>
     <a href="https://www.hitz.eus/en/node/340"><img alt="Blog" src="https://img.shields.io/badge/📒-Blog Post-blue"></a>
-    <a href="https://arxiv.org/abs/2403.20266"><img alt="Paper" src="https://img.shields.io/badge/📖-Paper-orange"></a>
+    <a href="https://arxiv.org/abs/2506.07597"><img alt="Paper" src="https://img.shields.io/badge/📖-Paper-orange"></a>
     <br>
     <a href="http://www.hitz.eus/"><img src="https://img.shields.io/badge/HiTZ-Basque%20Center%20for%20Language%20Technology-blueviolet"></a>
     <a href="http://www.ixa.eus/?language=en"><img src="https://img.shields.io/badge/IXA-%20NLP%20Group-ff3333"></a>
@@ -30,7 +30,7 @@ All models, datasets, and evaluation tools are released under open licenses.
 
 
 - 📒 Blog Post: TBA
-- 📖 Paper: TBA
+- 📖 Paper: [Instructing Large Language Models for Low-Resource Languages: A Systematic Study for Basque](https://arxiv.org/abs/2506.07597)
 - 🤗 Models and Data: [HiTZ/Latxa-Instruct](https://huggingface.co/collections/HiTZ/latxa-instruct-682f356091452b0028380804)
 
 ---
@@ -84,7 +84,7 @@ See [evaluation/README.md](evaluation/README.md) for full instructions, environm
 ### Static Benchmarks
 - **29 benchmarks** across Basque, English, and Spanish
 - **6 categories**: reading comprehension, common sense, linguistic proficiency, knowledge, math & reasoning, and bias
-- Automated evaluation using [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness)
+- Automated evaluation using [LM Evaluation Harness](https://github.com/juletx/lm-evaluation-harness/tree/basque-bench)
 - Full configuration files and results included
 
 ### Human Evaluation: _Ebaluatoia_ arena
